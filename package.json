@@ -1,0 +1,2 @@
+{"scripts":{"test":"cucumber-js","test:headed":"cucumber-js --world-parameters '{\"headless\": false}'","test:report":"cucumber-js --format html:reports/cucumber-report.html","clean":"rd /s /q node_modules && del package-lock.json","reinstall":"npm run clean && npm install"},
+"devDependencies":{"@cucumber/cucumber":"^9.1.2","@playwright/test":"^1.42.1","ts-node":"^10.9.2","typescript":"^5.8.3"}}

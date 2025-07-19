@@ -1,0 +1,54 @@
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local environment files
+.env
+.env.local
+.env*.local
+
+# Output directories
+reports/
+playwright-report/
+test-results/
+allure-results/
+dist/
+build/
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Playwright cache
+playwright/.cache/
+playwright/downloads/
+playwright/package-manager/
+
+# Temporary files
+*.tmp
+*.bak
+
+# TypeScript compiled files
+*.js
+*.map
+!jest.config.js
+!webpack.config.js
+
+# Exceptions (files that SHOULD be committed)
+!package.json
+!package-lock.json
+!tsconfig.json
+!cucumber.json
